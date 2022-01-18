@@ -1,0 +1,10 @@
+<$MKINCDIR/config
+PROGNAME = 9grep
+INCS = -I$INCDIR
+YFILES = grep.y
+HFILES = `{ls *.h}
+CFILES = `{ls *.c}
+YHFILES = y.tab.h
+YCFILES = y.tab.c
+AFILES = $OBJDIR/9.a
+
